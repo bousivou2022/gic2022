@@ -1,0 +1,111 @@
+TYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>layout</title>
+    </head>
+    <body style="width: 1500px; margin: 0 auto; padding: 0 auto; font-family: Arial, Helvetica, sans-serif;">
+        <br><br>
+        <form action="#">
+            <!-- row1 -->
+            <div style="border: solid 2px; margin-left: 25%; margin-right: 25%; padding-left: 5%; background-color: rgb(204, 202, 202);">
+                <h1>Tell me about your</h1>
+            </div>
+
+            <!-- row2 -->
+            <div style="border-bottom: solid 2px; border-left: solid 2px; border-right: solid 2px; margin-top: -25px; margin-left: 25%; margin-right: 25%; padding-left: 5%;">
+                <br><h4>Profile Information</h4>
+                <label for="lastname">Last Name</label>
+                <label for="firstname" style="margin-left: 240px;">First Name</label>
+                <br><br>
+                <input type="text" style="width: 250px;">
+                <input type="text" style="margin-left: 60px; width: 250px;">
+                <br><br>
+                <label for="email">Email</label>
+                <label for="phone" style="margin-left: 280px;">Phone</label>
+                <br><br>
+                <input type="email" style="width: 250px;">
+                <input type="text" style="margin-left: 60px; width: 250px;">
+                <br><br>
+                <label for="gender">Gender</label>
+                <input type="radio" style="margin-left: 80px;">Male 
+                <input type="radio" style="margin-left: 20px;">Female
+                <br><br><br>
+            </div>
+
+            <!-- row3 -->
+            <div style="border-bottom: solid 2px; border-left: solid 2px; border-right: solid 2px; margin-top: -25px; margin-left: 25%; margin-right: 25%; padding-left: 5%;">
+                <br><h4>Current Address</h4>
+                <select name="province" style="width: 150px ;">
+                    <option value="provinceCity">Province / City</option>
+                    <option value="Phnom Penh">Phnom Penh</option>
+                    <option value="bmc">Banteay Meanchey</option>
+                    <option value="tk">Takeo</option>
+                    <option value="kp">Kampot</option>
+                    <option value="btb">Battambang</option>
+                </select>
+                <select name="country" style="width: 150px; margin-left: 50px;">
+                    <option value="country">Country</option>
+                    <option value="c">Cambodia</option>
+                    <option value="th">Thailand</option>
+                    <option value="vn">Vietnam</option>
+                    <option value="l">Laos</option>
+                </select>
+                <input type="text" placeholder="Post Code" style="margin-left: 65px; width: 150px;">
+                <br><br>
+                <textarea name="address" cols="76" rows="3" placeholder="Address"></textarea>
+                <br><br><br>
+                <b>
+                    <span>Skills</span> 
+                    <span style="margin-left: 280px;">Language</span>
+                </b>
+                <br><br>
+                <input type="checkbox">Designing
+                <input type="checkbox" style="margin-left: 20px;">Database management
+                <input type="checkbox" style="margin-left: 25px;">English
+                <input type="checkbox" style="margin-left: 60px;">Chinese
+                <br><br>
+                <input type="checkbox">Coding 
+                <input type="checkbox" style="margin-left: 42px;">Debug
+                <input type="checkbox" style="margin-left: 143px;">French
+                <br><br>
+                <h4>Experiences</h4>
+                <br>
+                <b>
+                    <span>From</span> 
+                    <span style="margin-left: 130px;">To</span>
+                    <span style="margin-left: 150px;">Description</span>
+                </b>
+                <br><br>
+                <input type="text" style="width: 120px;">
+                <input type="text" style="width: 120px; margin-left: 40px;">
+                <input type="text" style="width: 230px; margin-left: 40px;">
+                <br><br>
+                <input type="text" style="width: 120px;">
+                <input type="text" style="width: 120px; margin-left: 40px;">
+                <input type="text" style="width: 230px; margin-left: 40px;">
+                <br><br>
+                <input type="text" style="width: 120px;">
+                <input type="text" style="width: 120px; margin-left: 40px;">
+                <input type="text" style="width: 230px; margin-left: 40px;">
+                <br><br>
+                <input type="text" style="width: 120px;">
+                <input type="text" style="width: 120px; margin-left: 40px;">
+                <input type="text" style="width: 230px; margin-left: 40px;">
+                
+                <br><br>
+                <h4>Choose your profile photo</h4>
+                <input type="file" style="margin-right: 520px; 
+                                           border-color:black;box-shadow:2px 2px 520px rgb(65, 63, 63)">
+                
+                <br><br>
+                <button type="submit" style="margin-left: 520px; background-color:cornflowerblue;
+                border-color:black;box-shadow:2px 2px rgb(65, 63, 63)">submit</button>
+                <br><br>
+            </div>
+            <br><br>
+        </form>
+    </body>
+</html>
