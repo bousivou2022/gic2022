@@ -1,0 +1,135 @@
+body{
+    margin:0px;
+}
+.home_container {
+    position: relative;
+    height: 100%;
+  }
+  .sidebar {
+    width: 22%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    padding-top: 20px;
+    font-family: 'Oswald', sans-serif;
+  }
+  .sidebar img {
+    width: 100px;
+    border-radius: 100%;
+    border: 2px solid #e5e5e5;
+  }
+  .sidebar h4 {
+    color: #d1cfcf;
+  }
+  #nav {
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+  }
+  #nav li {
+    position: relative;
+    padding: 10px;
+    border-bottom: 1px solid rgb(237, 236, 236);
+    border-top: 1px solid rgb(237, 236, 236);
+    margin-top: -1px;
+    font-weight: bold;
+  }
+  #nav li.active {
+    background-color: #f5f3f3;
+  }
+  li.active a:after {
+    background-color: #f4c052;
+    display: block;
+    position: absolute;
+    content: ' ';
+    right: 0;
+    bottom: 0;
+    width: 3px;
+    height: 100%;  
+  }
+  #nav a {
+    color: black;
+    text-decoration: none;
+  }
+  .sidebar .internet img{
+    border: 1px solid grey;
+    background-color: #d1cfcf;
+    width: 50px;
+  }
+  .container {
+    height: 100vh;
+    margin-left: 22%;
+    color:black;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+  }
+  .container .next_container {
+    height: 100vh;
+    color:black;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    width: 100vh;
+    padding: 10px 60px 30px;
+  }
+  .container .first {
+      background-color: #f4c052;
+      border: 1px solid #f4c052;
+      color:white;
+      margin-right: 90%;
+      text-align: right;
+      padding: 6px;
+  }
+  .container .second {
+    position: absolute;
+    top: -5px;
+    left: 170px;
+    color:rgb(145, 139, 139)
+  }
+  
+ 
+  .style h2 {
+    border-bottom: 3px solid rgb(233, 211, 10);
+  }
+  
+  div.img {
+    margin: 5px;
+    border: 1px solid gray;
+    float: left;
+    width: 500px;
+    position:relative;
+}
+#image_div img
+{
+ width:100%;
+}
+#image_div #image_label
+{
+ margin:0px;
+ position:absolute;
+ bottom:10px;
+ 
+}
+div.img #image_label span{
+    background-color: rgb(233, 211, 10);
+    opacity:0.8;
+    font-size:16px;
+    padding:7px;
+    box-sizing:border-box;
+    color:white;
+    font-weight:bold;
+    text-align: center;
+   
+   }
+div.img:hover {
+    border: 1px solid black;
+}
+div.img img {
+    width: 100%;
+    height: auto;
+}
+.img h6 {
+  color: #d1cfcf;
+}
+.img h5 {
+  color: #d1cfcf;
+}
